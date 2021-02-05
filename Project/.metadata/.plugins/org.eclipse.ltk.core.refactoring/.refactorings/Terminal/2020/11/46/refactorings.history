@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Terminal/serial.c&apos; to &apos;lab5_abiriaPlacide.c&apos;" description="Rename resource &apos;serial.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="serial.c" name="lab5_abiriaPlacide.c" stamp="1605170367223" updateReferences="true"/>
+</session>

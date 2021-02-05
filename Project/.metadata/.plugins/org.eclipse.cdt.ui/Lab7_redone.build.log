@@ -1,0 +1,21 @@
+
+**** Build of configuration Debug for project Lab7_redone ****
+
+/home/abiria/ccstudio/ccs/utils/bin/gmake -k -j 4 all -O 
+ 
+Building file: "../lab7_PWM_Modulation.c"
+Invoking: ARM Compiler
+"/home/abiria/ccstudio/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/abiria/cse3442/lab7_redone/Lab7_redone" --include_path="/home/abiria/ccstudio/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7_PWM_Modulation.d_raw"  "../lab7_PWM_Modulation.c"
+"../lab7_PWM_Modulation.c", line 212: warning #179-D: variable "byte_index" was declared but never referenced
+"../lab7_PWM_Modulation.c", line 213: warning #179-D: variable "bit_shift" was declared but never referenced
+"../lab7_PWM_Modulation.c", line 214: warning #179-D: variable "bit_load" was declared but never referenced
+Finished building: "../lab7_PWM_Modulation.c"
+ 
+Building target: "Lab7_redone.out"
+Invoking: ARM Linker
+"/home/abiria/ccstudio/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7_redone.map" --heap_size=0 --stack_size=512 -i"/home/abiria/ccstudio/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/lib" -i"/home/abiria/ccstudio/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_redone_linkInfo.xml" --rom_model -o "Lab7_redone.out" "./eeprom.obj" "./lab5_abiriaPlacide.obj" "./lab6_AbiriaPlacide.obj" "./lab7_PWM_Modulation.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart0.obj" "./wait.obj" "../tm4c123gh6pm.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab7_redone.out"
+ 
+
+**** Build Finished ****

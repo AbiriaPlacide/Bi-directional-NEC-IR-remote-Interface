@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_112" class="java.beans.XMLDecoder">
+ <object class="com.ti.dvt.datamodel.solution.SolutionManager$PersistState" id="SolutionManager$PersistState0">
+  <void class="com.ti.dvt.datamodel.solution.SolutionManager$PersistState" method="getField">
+   <string>defaultSolution</string>
+   <void method="set">
+    <object idref="SolutionManager$PersistState0"/>
+    <string>/home/abiria/ccstudio/ccs/ccs_base/dvt_4.1.0.202001311011/CodeGen/solutions/CodeGenCoverage</string>
+   </void>
+  </void>
+ </object>
+<void class="com.ti.dvt.datamodel.solution.SolutionManager$PersistState" id="Field0" method="getField">
+ <string>openedSolutions</string>
+ <void id="ArrayList0" method="get">
+  <object idref="SolutionManager$PersistState0"/>
+  <void method="add">
+   <string>/home/abiria/cse3442/Bi-directional-NEC-IR-remote-Interface/Project/dvt/AnalysisSolutionsTemp/AnalysisSolution1612543851248/null</string>
+  </void>
+  <void method="add">
+   <string>/home/abiria/ccstudio/ccs/ccs_base/dvt_4.1.0.202001311011/CodeGen/solutions/CodeGenCoverage</string>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList0"/>
+</java>

@@ -1,0 +1,1 @@
+"./eeprom.obj" "./lab5_abiriaPlacide.obj" "./lab6_AbiriaPlacide.obj" "./lab7_PWM_Modulation.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart0.obj" "./wait.obj" "../tm4c123gh6pm.cmd" -llibc.a 

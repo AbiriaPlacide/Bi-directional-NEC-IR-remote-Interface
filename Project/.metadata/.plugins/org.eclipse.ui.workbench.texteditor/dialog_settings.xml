@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="BLUE_BL_LED_MASK"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="GREEN_BL_LED_MASK"/>
+			<item value="delay"/>
+			<item value="RED_BL_LED_MASK"/>
+			<item value="PWM_0_CTL_ENABLE"/>
+			<item value="PWM0_1_LOAD_R"/>
+			<item value="PWM0_1_CTL_R"/>
+			<item value="Commands"/>
+			<item value="BOOL_INTERRUPT_CLEAR"/>
+			<item value="sampleData"/>
+			<item value="fieldCount"/>
+			<item value="databits,0,8"/>
+			<item value="databits,8,15"/>
+			<item value="databits,16"/>
+			<item value="address"/>
+			<item value="data"/>
+		</list>
+		<list key="replacehistory">
+			<item value="BLUE_BL_LED_MASK"/>
+			<item value="databits,0,7"/>
+			<item value="databits,0,8"/>
+			<item value="IRQ_Timer2_ISR"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="26"/>
+		<item key="DIALOG_Y_ORIGIN" value="23"/>
+		<item key="DIALOG_WIDTH" value="374"/>
+		<item key="DIALOG_HEIGHT" value="450"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|12.0|0|GTK|1|"/>
+	</section>
+</section>
