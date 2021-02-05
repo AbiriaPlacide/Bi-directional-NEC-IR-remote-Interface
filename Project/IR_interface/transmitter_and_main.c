@@ -13,8 +13,8 @@
 #include <stdbool.h>
 #include <string.h>
 #include "tm4c123gh6pm.h"
-#include "lab5_AbiriaPlacide.h"
-#include "lab6_AbiriaPlacide.h"
+#include "shell_interface.h"
+#include "IR_receiver.h"
 #include "eeprom.h"
 #include "uart0.h"
 #include "wait.h"
