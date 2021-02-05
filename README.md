@@ -3,8 +3,8 @@ Firmware interfacing a NEC IR remote, IR sensor (TSOPxx38), Buzzer, and an IR LE
 
 
 ### Features
-  - shell interface using UART
-  - Transmision and Decoding
+  - shell interface via UART. Can be accessed using PuTTY or Gtk-Term at Baudrate: 115200
+  - Transmision and Decoding commands
   - Learning new commands using EEPROM as storage
   - retrieve info on a given command
   - delete commands
