@@ -2,7 +2,7 @@ Bi-directional-NEC-IR-remote-Interface
 Firmware interfacing a NEC IR remote, IR sensor (TSOPxx38), Buzzer, and an IR LED for transmission using the NEC IR Transmission Protocol.
 
 
-### features
+### Features
   - shell interface using UART
   - Transmision and Decoding
   - Learning new commands using EEPROM as storage
@@ -10,7 +10,7 @@ Firmware interfacing a NEC IR remote, IR sensor (TSOPxx38), Buzzer, and an IR LE
   - delete commands
   - alert on good/bad command by buzzing a different pitch
   
-###  board and hardware used
+### Board and hardware used
   - Tiva Series tm4c123g 
   - resistors 
   - 10x2 headers 
@@ -19,7 +19,7 @@ Firmware interfacing a NEC IR remote, IR sensor (TSOPxx38), Buzzer, and an IR LE
   - 1 IR sensor: TSOPxx38
   - 1 Piezo Transducer (Buzzer)
 
-### how to build firmware
+### How to build firmware
   1. create a new project in CCStudio. Target: Tiva C series TM4C123GH6PM | Connection: Stellaris In-Circuit Debug Interface.
   2. Make sure to use the TI Compiler or the _delay_cycles() function will not work. 
   3. Dump all .c and .h files in the same directory then  build it.
@@ -30,13 +30,13 @@ Firmware interfacing a NEC IR remote, IR sensor (TSOPxx38), Buzzer, and an IR LE
   - Transmission: PB4 (connected to IR LED)
   - Buzzer:       PB5 (connected to Piezo Transducer)
   
-### POWER
+### Power
    - 3.3v for IR sensor and IR LED
-   - 5.0v for Trans
+   - 3.3v or 5.0v for Transducer
   
 
-### shell interface
+### Shell interface
 ![alt text](https://github.com/AbiriaPlacide/Bi-directional-NEC-IR-remote-Interface/blob/main/images/shell_interface.png)
 
-### Physical Circuit with dev board attached
+### Physical circuit with dev board attached
 ![alt text](https://github.com/AbiriaPlacide/Bi-directional-NEC-IR-remote-Interface/blob/main/images/finalProjPicture.jpg)
