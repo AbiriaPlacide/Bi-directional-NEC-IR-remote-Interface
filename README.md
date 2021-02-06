@@ -19,7 +19,7 @@ Firmware interfacing a NEC IR remote, IR sensor (TSOPxx38), Buzzer, and an IR LE
   - 1 IR sensor: TSOPxx38
   - 1 Piezo Transducer (Buzzer)
 
-### How to build firmware
+### How to build the firmware
   1. create a new project in CCStudio. Target: Tiva C series TM4C123GH6PM | Connection: Stellaris In-Circuit Debug Interface.
   2. Make sure to use the TI Compiler or the _delay_cycles() function will not work. 
   3. Dump all .c and .h files in the same directory then  build it.
